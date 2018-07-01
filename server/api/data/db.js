@@ -12,3 +12,5 @@ mongoose.connection.on('disconnected', function() {
 mongoose.connection.on('error', function(err) {
   console.log('Mongoose connection error: ' + err);
 });
+
+require('./poll.model.js');
