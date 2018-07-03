@@ -11,6 +11,8 @@ class App extends Component {
       <div>
         <h1>Voting App</h1>
         <Poll />
+        <div id="social-links">
+        </div>
       </div>
     );
   };
